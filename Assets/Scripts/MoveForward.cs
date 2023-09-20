@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class OncomingBus : MonoBehaviour
+public class MoveForward : MonoBehaviour
 
 {
         //adjust this to make the buses go faster
