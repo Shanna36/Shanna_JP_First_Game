@@ -174,3 +174,21 @@ Received Import Request.
   path: Assets/Scripts/OncomingBus.cs
   artifactKey: Guid(b825b2bc0e6ad4ab6803de4000be506e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Start importing Assets/Scripts/OncomingBus.cs using Guid(b825b2bc0e6ad4ab6803de4000be506e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '227c0fb2af8db08eee38023668477aac') in 0.100867 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 689.519428 seconds.
+  path: Assets/Prefabs
+  artifactKey: Guid(859cdcadfafc24665ac2bdd50f6b051e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs using Guid(859cdcadfafc24665ac2bdd50f6b051e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '091ea2cf294cb49d2a80d58deb1496ca') in 0.000762 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 10.409835 seconds.
+  path: Assets/Prefabs/Veh_Armor_Car_01.prefab
+  artifactKey: Guid(6a8ac8c71e7e24c1f9e985a8811a2447) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Veh_Armor_Car_01.prefab using Guid(6a8ac8c71e7e24c1f9e985a8811a2447) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e33e4dc8bc528d7da4b7789632e59fe6') in 0.149171 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 21.595016 seconds.
+  path: Assets/Prefabs/Veh_Bus_Blue_Z.prefab
+  artifactKey: Guid(3a6397cd7627445acb9d4adc533fb2ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Veh_Bus_Blue_Z.prefab using Guid(3a6397cd7627445acb9d4adc533fb2ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ea82c9932f70520cdd11ff3d85192b0') in 0.018169 seconds 
