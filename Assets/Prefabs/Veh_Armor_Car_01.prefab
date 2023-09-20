@@ -544,6 +544,7 @@ GameObject:
   - component: {fileID: 4549465467331814303}
   - component: {fileID: 3703417769380773}
   - component: {fileID: 5392067870124592428}
+  - component: {fileID: 4416473758537334603}
   m_Layer: 0
   m_Name: Veh_Armor_Car_01
   m_TagString: Untagged
@@ -649,6 +650,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 15
+--- !u!114 &4416473758537334603
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4549465467329890853}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f3420a3d3ce5f45a69baaa6234f13cd1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &4549465467329893349
 GameObject:
   m_ObjectHideFlags: 0
