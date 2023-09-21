@@ -6,6 +6,9 @@ public class FollowPlayer : MonoBehaviour
 {   
     // This public variable is set to the vehicle in Unity, references the vehicle's position
     public GameObject player;
+    public Camera mainCamera;
+    public Camera hoodCamera;
+    public KeyCode switchKey; 
 
     //this one offsets the camera so it is behind the car
     private Vector3  offset = new Vector3 ( 0, 5, -7);
