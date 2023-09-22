@@ -6,9 +6,7 @@ public class FollowPlayer : MonoBehaviour
 {   
     // This public variable is set to the vehicle in Unity, references the vehicle's position
     public GameObject player;
-    public Camera mainCamera;
-    public Camera hoodCamera;
-    public KeyCode switchKey; 
+    
 
     //this one offsets the camera so it is behind the car
     private Vector3  offset = new Vector3 ( 0, 5, -7);
@@ -24,5 +22,7 @@ public class FollowPlayer : MonoBehaviour
     {
         //this is where we get the camera to move position, referenceing the public variable above + the offset so it is a good camera angle
         transform.position = player.transform.position + offset;
+
+        Debug.Log ("to change camera, F for P1 E for P2");
     }
 }
