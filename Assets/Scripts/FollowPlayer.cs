@@ -9,13 +9,10 @@ public class FollowPlayer : MonoBehaviour
     
 
     //this one offsets the camera so it is behind the car
-    private Vector3  offset = new Vector3 ( 0, 5, -7);
+    [SerializeField] private Vector3  offset = new Vector3 ( 0, 5, -7);
 
     // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
+
 
     // Late Update ensures that it updates its position after the vehicle so it doesn't shake the camera
     void LateUpdate()
@@ -23,6 +20,6 @@ public class FollowPlayer : MonoBehaviour
         //this is where we get the camera to move position, referenceing the public variable above + the offset so it is a good camera angle
         transform.position = player.transform.position + offset;
 
-        Debug.Log ("to change camera, F for P1 E for P2");
+        Debug.Log ("to change camera, F for P1 G for P2");
     }
 }
