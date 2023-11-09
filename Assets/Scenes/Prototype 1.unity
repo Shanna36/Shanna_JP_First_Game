@@ -1500,6 +1500,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   player: {fileID: 1043635052}
+  offset: {x: 0, y: 5, z: -7}
 --- !u!1 &566449121 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 8780424320546655309, guid: 71782582b9d2cac4cba5251a3b767d13, type: 3}
@@ -1788,6 +1789,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fc9af02c410bc489188d06759d5e7892, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  speed: 20
+  turnSpeed: 25
   inputId: 2
   mainCamera: {fileID: 1339269653}
   hoodCamera: {fileID: 1757558752}
@@ -2176,6 +2179,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   player: {fileID: 1043635052}
+  offset: {x: 0, y: 5, z: -7}
 --- !u!20 &907151341
 Camera:
   m_ObjectHideFlags: 0
@@ -2227,7 +2231,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 907151338}
   m_LocalRotation: {x: 0.09255772, y: -0.073434316, z: -0.008221909, w: 0.9929617}
-  m_LocalPosition: {x: 0.27999973, y: 2.11, z: 0.71000004}
+  m_LocalPosition: {x: 0.23, y: 2.04, z: 1.03}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -2708,6 +2712,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fc9af02c410bc489188d06759d5e7892, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  speed: 20
+  turnSpeed: 25
   inputId: 1
   mainCamera: {fileID: 534669904}
   hoodCamera: {fileID: 907151341}
@@ -3247,6 +3253,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   player: {fileID: 679600308}
+  offset: {x: 0, y: 5, z: -7}
 --- !u!20 &1339269653
 Camera:
   m_ObjectHideFlags: 0
@@ -3588,7 +3595,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1757558749}
   m_LocalRotation: {x: 0.03943749, y: -0.072890915, z: -0.012128936, w: 0.99648607}
-  m_LocalPosition: {x: 0.34, y: 2.37, z: 0.05}
+  m_LocalPosition: {x: 0.2, y: 1.88, z: 0.87}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -3608,6 +3615,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   player: {fileID: 679600308}
+  offset: {x: 0, y: 5, z: -7}
 --- !u!20 &1757558752
 Camera:
   m_ObjectHideFlags: 0
